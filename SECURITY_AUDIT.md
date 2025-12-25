@@ -1,10 +1,22 @@
 # Mole Security Audit Report
 
-**Date:** December 22, 2025
+**Date:** December 25, 2025
 
-**Audited Version:** Current `main` branch (V1.14.0)
+**Audited Version:** Current `main` branch (V1.14.4)
 
 **Status:** Passed
+
+## Privacy Statement
+
+**Mole is 100% private and operates entirely on your local system.**
+
+- ✅ **No telemetry, analytics, or tracking** - We never collect usage data
+- ✅ **No user data uploads** - Your files, scan results, and system information stay on your Mac
+- ✅ **No background data transmission** - All cleaning, scanning, and monitoring operations are local-only
+- ℹ️ **Optional network operations** (only when explicitly requested):
+  - **Version check**: When you run `mo update` or open the main menu, Mole contacts GitHub API to check for updates (non-blocking, skipped on timeout)
+  - **Software updates**: When you run `mo update`, Mole downloads the latest version from GitHub
+- 🔍 **Network monitoring**: The `mo status` command displays local network interface statistics (read-only, similar to Activity Monitor) but **never sends data**
 
 ## Security Philosophy: "Do No Harm"
 
