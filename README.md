@@ -23,6 +23,7 @@
 - **Smart uninstaller**: Thoroughly removes apps along with launch agents, preferences, and **hidden remnants**
 - **Disk insights**: Visualizes usage, manages large files, **rebuilds caches**, and refreshes system services
 - **Live monitoring**: Real-time stats for CPU, GPU, memory, disk, and network to **diagnose performance issues**
+- **100% Private**: All operations run locally on your Mac. **Zero telemetry, no data collection, no remote uploads**
 
 ## Quick Start
 
@@ -60,6 +61,18 @@ mo clean --whitelist         # Manage protected caches
 mo uninstall --force-rescan  # Rescan applications and refresh cache
 mo optimize --whitelist      # Manage protected optimization rules
 ```
+
+## Privacy & Security
+
+**Your data stays on your Mac.** Mole is designed with privacy as a core principle:
+
+- ✅ **All cleaning, scanning, and monitoring operations are 100% local**
+- ✅ **No telemetry, analytics, or tracking of any kind**
+- ✅ **No user data uploads or external data transmission**
+- ✅ **Open source - audit the code yourself**
+- ℹ️ **Only network operation**: Optional version check when you run `mo update` (contacts GitHub API only)
+
+Read our full [Privacy Policy](PRIVACY.md) and [Security Audit](SECURITY_AUDIT.md) for complete details.
 
 ## Tips
 
